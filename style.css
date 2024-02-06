@@ -1,55 +1,58 @@
-body{
-   
+body {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
     background-image: url("nature3.webp");
     background-size: cover;
-    
-    
 }
-#containor{
+
+#containor {
     text-align: center;
-    width: 450px;
-    height: 300px;
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 450px; /* Set a maximum width */
+    height: auto; /* Change height to auto for content to expand */
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
     margin-top: 150px;
-    margin-left: 500px;
 }
-#a{
-    width: 90%;
-    height: 18px;
+
+#a {
+    width: 100%; /* Make input fields responsive */
+    max-width: 300px; /* Set a maximum width for input fields */
+    height: 40px; /* Increase height for better touch interaction */
     border-radius: 25px;
-    border-color: solid grey;
-    font-size:15px;
+    border: 1px solid grey; /* Corrected border declaration */
+    font-size: 15px;
     outline: none;
     padding: 10px;
-    margin: 20px;
-    color: solid grey;
+    margin: 20px auto; /* Center input fields horizontally */
+    color: black; /* Corrected color declaration */
 }
-button{
+
+button {
     background-color: rgb(105, 68, 165);
-    margin: 15px;
+    margin: 15px auto; /* Center button horizontally */
     font-size: 15px;
     width: 150px;
-    height: 35px;
+    height: 40px; /* Increase height for better touch interaction */
     border-radius: 18px;
-    color:white;
-    border-color: solid black;
+    color: white;
+    border: none; /* Removed border */
+    cursor: pointer; /* Added cursor pointer */
 }
-#fp{
-    margin: 0px;
-    margin-right: 280px;
-    margin-top: 0;
+
+#fp {
+    margin: 0;
+    margin-top: 10px; /* Adjusted top margin for smaller devices */
     color: blue;
 }
-a{
+
+a {
     text-decoration: none;
 }
-h1{
+
+h1 {
     color: rgb(66, 13, 50);
 }
